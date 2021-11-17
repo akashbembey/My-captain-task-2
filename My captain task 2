@@ -18,8 +18,9 @@ public class App {
         Boolean isJavaEasy = false;
         System.out.println(isJavaEasy);
         System.out.println("If else part");
-        Scanner input = new Scanner(System.in);
-         int number = input. nextInt();
+        System.out.println("What is your age");
+        Scanner age = new Scanner(System.in);
+         int number = age. nextInt();
         int canvoteage = 18;
         if(number>=canvoteage){
             System.out.println("You can vote");
